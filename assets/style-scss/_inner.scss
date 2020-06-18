@@ -1,0 +1,71 @@
+.productImg{
+    background-image: url(../images/img-1.jpg);
+    max-width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+
+.content{
+    background-color: #fff;
+    left: -80px;
+}
+
+.breadcrumb{
+    background-color: transparent;
+}
+
+.number{
+    border-radius: 10px;
+    margin-right: 5px;
+    background: #F2F2F2;
+
+    input{
+        background: #ffffff00;
+        width: 40px;
+    }
+}
+
+.description{
+    font-size: 20px;
+    line-height: 30px;
+}
+.standard{
+    color: #0000009A;
+}
+
+// model 欄位
+.modal.right .modal-dialog {
+		position: fixed;
+        right:0;
+		margin: auto;
+		width: 540px;
+		height: 100%;
+		transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+
+.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+.modal-header {
+		border-bottom: none;
+	}
+
+// X icon
+.bigClose{
+    font-size: 48px;
+}
+
+// 選單圖片大小
+.mediaImg1{
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 122px;
+}
+

@@ -1,0 +1,52 @@
+.light{
+    .navbar-light li a{
+        color: #000 !important;
+    }
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+
+} 
+
+.logoTitle{
+    color: #fff;
+    font-style: italic;
+}
+
+@media (min-width: 996px){
+    .text-lg-dark{
+        color: #121212 !important;
+    }
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+.menu{
+    z-index: 1;
+    .topMenu{
+        display: none;
+    }
+}
+
+
+.navbar-light{
+    li{
+        color: #ffffff !important;
+    }
+}
+
+
+.footer{
+    max-width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url('../images/footer.jpg');
+
+    .bg-dark{
+        background-color: #000 !important;
+    }
+    
+}

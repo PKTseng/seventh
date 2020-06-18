@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inner.html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+
+  <body>
+    <section class="container menu mt-4">
+      <!-- <div class="collapse navbar-collapse dark">
+        <ul class="navbar-nav ml-auto navbar-light">
+          <li class="nav-item">
+            <a class="nav-link" href="page.html">Product </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-3" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-3" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-4" href="Checkout.html">
+              <i class="material-icons">shopping_cart</i>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+      <div class="row mt-4 align-items-center">
+        <!-- 漢堡選單 -->
+        <div class="col-3 d-lg-none d-block text-white">
+          <span class="material-icons">dehaze</span>
+        </div>
+        <!-- 左邊標題 -->
+        <div class="col-6 col-lg-2 d-flex justify-content-lg-start justify-content-center align-items-center">
+          <a href="index.html">
+            <h2 class="font-weight-bold text-lg-dark logoTitle">Craftsman</h2>
+          </a>
+        </div>
+        <!-- 右邊選單 -->
+        <div class="col-3 col-lg-10 d-flex justify-content-end">
+          <div class="d-flex align-items-center">
+            <div class="mx-3">
+              <a href="page.html" class="text-white  align-items-center topMenu d-lg-block">Product</a>
+            </div>
+            <div class="mx-3">
+              <a href="page.html" class="text-white  align-items-center topMenu d-lg-block">Blog</a>
+            </div>
+            <div class="mx-3">
+              <a href="page.html" class="text-white  align-items-center topMenu d-lg-block">Contact</a>
+            </div>
+          </div>
+          <div class="mx-3">
+              <a href="inner.html" class="text-white">
+                <span class="material-icons">shopping_cart</span>
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+<!-- 產品頁開始 -->
+<section class="container">
+  <div class="row flex-nowrap align-items-center">
+    <!-- 左大圖 -->
+    <div class="col-md-8 productImg bg-cover" data-aos="fade-right"></div>
+    <!-- 右邊購物選項 -->
+    <div class="col-md-5 col-12 content align-items-center p-4" data-aos="fade-left">
+        <p class="text-secondary">Home / Product / Cup</p>
+        <h1 class="font-weight-bold">Tatami Cup</h1>
+        <div class="text-right">
+          <del>NT$1,200</del>
+          <h3 class="font-weight-bold">NT$1,080</h3>
+        </div>
+
+        <!-- 購買數項 -->
+        <div class="row flex-nowrap no-gutters">
+          <div class="number d-flex justify-content-around align-items-center">
+            <button class="btn">
+            <i class="material-icons">remove</i>
+          </button>
+          <!-- <input type="number" class="border-0" value="1"> -->
+          <input type="number" value="1" class="text-center border-0">
+          <button class="btn">
+            <i class="material-icons">add</i>
+          </button>
+          </div>
+          <!-- Button cart modal -->
+          <div class="col-8">
+          <button type="button" class="btn btn-success btn-block p-3" data-toggle="modal" data-target="#cartModal">
+            Add to cart
+          </button>
+          </div>
+        </div>
+        <!-- 購買數項 -->
+
+    </div>
+  </div>
+</section>
+
+<!-- 產品描述 -->
+<section class="container mt-5" data-aos="fade-up" data-aos-duration="1500">
+  <div class="row">
+    <div class="col-md-5 col-12 mb-md-0 p-0">
+      <p class="description">
+        This beautiful light grey cup comes from Taiwan. 
+        
+        Add some minimalist scenes to your lifetime and 
+        
+        use this cup for tea, coffee, dessert, or to place 
+        
+        small items as a dish tray.</p>
+    </div>
+    <ul class="col-md-3 standard">
+      <li>Made in Taiwan</li>
+      <li>8 x 8 x 6 cm</li>
+      <li>Dishwasher and Microwave-safe</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 其他選項 -->
+<section class="other container mt-5" data-aos="fade-left">
+  <h3 class="font-weight-bold">You might also like…</h3>
+  <div class="container mt-5">
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- 第一張 -->
+      <div class="swiper-slide">
+        <!-- 特價 -->
+        <div class="product w-100">
+          <div class="img img1">
+            <p class="text-white text-right p-3">on sale</p>
+          </div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Tatami Cup</h3>
+          </div>
+              <p class="text-dark">NT$1,080
+                <span><del>NT$1,200</del></span>
+              </p>
+          </div>
+        </div>
+        
+        <!-- 第二張 -->
+      <div class="swiper-slide">
+        <!-- 特價 -->
+        <div class="product w-100">
+          <div class="img img2"></div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Couple Collection</h3>
+          </div>
+              <p class="text-dark">NT$2,800</p>
+          </div>
+        </div>
+        <!-- 第三張 -->
+      <div class="swiper-slide">
+        <div class="img img3">
+        <div class="product w-100">
+          <div class="img img3"> </div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Brotherhood Vase</h3>
+          </div>
+              <p class="text-dark">NT$4,800</p>
+          </div>
+        </div>
+      </div>
+      <!-- 第四張 -->
+      <div class="swiper-slide">
+        <div class="img img3">
+        <div class="product w-100">
+          <div class="img img4"> </div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Ceramic Vase</h3>
+          </div>
+              <p class="text-dark">NT$3,600</p>
+          </div>
+        </div>
+      </div>
+      <!-- 第五張 -->
+      <div class="swiper-slide">
+        <div class="img img3">
+        <div class="product w-100">
+          <div class="img img5"> </div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Kabi Mug</h3>
+          </div>
+              <p class="text-dark">NT$980</p>
+          </div>
+        </div>
+      </div>
+      <!-- 第六張 -->
+      <div class="swiper-slide">
+        <div class="img img3">
+        <div class="product w-100">
+          <div class="img img6"> </div>
+          <!-- 售價 -->
+          <div class="productPrice d-flex">
+            <h3 class="font-weight-bold mt-2">Hana Vase</h3>
+          </div>
+              <p class="text-dark">NT$3,600
+                <span><del>NT$3,880</del></span>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- model 欄位 -->
+
+<!-- Modal -->
+
+<div class="modal right fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+      <div class="modal-header align-items-center">
+        
+        <h1 class="font-weight-bold modal-title mr-auto" id="cartModalLabel">Cart List
+          <sup class="green">3</sup></h1>
+          
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="material-icons bigClose" aria-hidden="true">clear</i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- 產品一 -->
+        <div class="media bg-light">
+          <img src="./assets/images/img-1.jpg" class="mediaImg1 bg-cover" alt="...">
+        <!-- 產品一內容 -->
+          <div class="media-body p-3">
+            <div class="row justify-content-between px-3">
+                <p class="font-weight-bold m-0 ">Tatami Cup </p>
+              <i class="material-icons mr-0">clear</i>
+            </div>
+            <p class="text-secondary">NT$1,080
+              <del>NT$1,200</del>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <button class="btn">
+                  <i class="material-icons">remove</i>
+                </button>
+                <span class="pb-2">1</span>
+                <button class="btn">
+                  <i class="material-icons">add</i>
+                </button>
+              </div>
+              <p class="font-weight-bold m-0">NT$1,080</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 產品二 -->
+        <div class="media bg-light mt-2">
+          <img src="./assets/images/img-4.jpg" class="mediaImg1 bg-cover" alt="...">
+        <!-- 產品二內容 -->
+          <div class="media-body p-3">
+            <div class="row justify-content-between px-3">
+                <p class="font-weight-bold m-0">Baifan Bowl</p>
+              <i class="material-icons mr-0">clear</i>
+            </div>
+            <p class="text-secondary">NT$1,800</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <button class="btn">
+                  <i class="material-icons">remove</i>
+                </button>
+                <span class="pb-2">2</span>
+                <button class="btn">
+                  <i class="material-icons">add</i>
+                </button>
+              </div>
+              <p class="font-weight-bold m-0">NT$3,600</p>
+            </div>
+          </div>
+        </div>
+        <!-- Total -->
+        <div class="container-fluid p-0">
+          <div class="row justify-content-end">
+            <div class="col-9">
+              <ul class="mt-4">
+                <li class="d-flex justify-content-between">
+                  <p class="text-secondary">Subtotal</p>
+                  <p>NT$4,680</p>
+                </li>
+                <li class="d-flex justify-content-between">
+                  <p class="text-secondary">Shipping</p>
+                  <p>NT$80</p>
+                </li>
+                <li class="d-flex justify-content-between">
+                  <h3 class="font-weight-bold">Total</h3>
+                  <h3 class="font-weight-bold">NT$4,760</h3>
+                </li>
+                <li class="d-flex justify-content-between">
+                  <button type="button" class="btn btn-success btn-block p-3" data-dismiss="modal">Checkout</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <section class="footer mt-5 bg-cover">
+      <div class="container h-100">
+        <!-- 標題 -->
+        <div class="row align-items-center h-100">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h1 class="h1 text-white">Subscribe for news 
+              <br>
+              and special offers!</h1>
+              <!-- 輸入 e-mail -->
+            <div class="row mt-5">
+              <div class="col-10">
+                <div class="input-group">
+                  <input type="text" class="form-control p-4" placeholder="Your email address">
+                  <div class="input-group-append">
+                    <button class="btn btn-success " type="button">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark py-3">
+        <div class="container h-100">
+          <div class="row h-100 justify-content-lg-between ">
+            <div class="col-12 col-lg-6 d-flex align-items-center ">
+              <h3 class="logo text-white mr-3">Craftsman</h3>
+              <small class="text-gray d-none d-lg-block">© 2020. All Rights Reserved.</small>
+            </div>
+            <ul class="nav justify-content-end flex-column flex-lg-row">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Purchase Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Terms & Conditions</a>
+              </li>
+              <!-- <li class="nav-item d-lg-none mt-4">
+                <small class="text-gray">© 2020. All Rights Reserved.</small>
+              </li> -->
+            </ul>
+            <small class="text-gray d-lg-none">© 2020. All Rights Reserved.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

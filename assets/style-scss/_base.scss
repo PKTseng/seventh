@@ -1,0 +1,56 @@
+*,*::before,*::after{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+.h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}
+
+.green{
+    color: #0E8A00;
+}
+
+.font-weight-bold {
+    font-weight: 700 ;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+a{
+    color: #000;
+    :hover{
+        color: #0E8A00;
+    }
+}
+
+@mixin pad {
+    @media (max-width:996px) {
+        @content
+    }
+}
+
+.text-md-dark{
+    color: #000;
+}
